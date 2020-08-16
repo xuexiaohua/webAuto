@@ -108,7 +108,7 @@ class TestHogwards():
         driver.switch_to_frame("frame-index")frame无ID的时候一句索引来处理，索引从0开始的driver.switch_to_frame(0)
     (2)处理嵌套的iframe
         对于嵌套的先进入到iframe的父节点，再进到子节点，然后可以对子节点里面的对象进行处理和操作
-        driver.swithc_to.frame(“父节点”)
+        driver.switch_to.frame(“父节点”)
         driver.switch_to.frame("子节点")
         
     """

@@ -4,7 +4,7 @@ from time import sleep
 
 from selenium.webdriver import ActionChains
 
-from base import Base
+from test_alert.base import Base
 
 
 class TestAlert(Base):

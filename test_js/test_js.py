@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import pytest
-
-from base import Base
 import time
+
+from test_js.base import Base
+
 
 class TestJS(Base):
     @pytest.mark.skip

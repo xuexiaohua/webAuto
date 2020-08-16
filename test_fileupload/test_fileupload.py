@@ -4,7 +4,8 @@ from time import sleep
 
 from selenium.webdriver.support import expected_conditions
 
-from base import Base
+from test_fileupload.base import Base
+
 
 class TestFileUpload(Base):
     def test_fileUpload(self):
